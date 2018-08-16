@@ -65,4 +65,4 @@ The footer is branded with the company logo.  The address, phone number and stor
   *https://catawbacoffeeco.herokuapp.com/*
 
 ### **Git Hub :**
-*https://github.com/oscarsolorzano/Project_3*
+*https://github.com/JefferyCarmichael/Project_3*

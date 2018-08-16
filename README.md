@@ -39,7 +39,7 @@ The Events page lists music events hosted at the coffee shop.
 ### **Contact Page**
 Customers can submit requests and comments via email.
 
-![Contact](https://raw.githubusercontent.com/oscarsolorzano/Project_3/master/client/src/images/cccontact.png)
+![Contact](/client/src/images/cccontact.png)
 
 
 ### **Footer**

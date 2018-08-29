@@ -123,3 +123,69 @@ margin: 0;
     padding-top: 1%
 }
 
+/*Home Page Media Query  width=968*/
+
+@media screen and (max-width: 968px){
+
+    .jumbotron h1 {
+      font-size: 60px;  
+  }
+
+  .jumbotron p {
+    font-size: 30px;  
+}
+
+  
+  }
+
+    @media screen and (max-width: 768px){
+       .jumbotron{
+           height: 100px;
+           margin-top: 5px;
+       }
+       .jumbotron h1 {
+        font-size: 50px;  
+    }
+  
+    .jumbotron p {
+      font-size: 25px;  
+  }
+
+  .nav-link{
+    font-size: 18px;
+}
+  
+    }
+
+    @media screen and (max-width:640px){
+
+        .Quote{
+            width:85%;
+            height: 90%;
+            margin-right: 20px;
+            margin-left: 30px;
+            top: 55px;
+        }
+    }
+
+    @media screen and (max-width:640px){
+
+        .Quote{
+            width:85%;
+            height: 100%;
+            margin-right: 20px;
+            margin-left: 30px;
+            top: 55px;
+            line-height: 20px;
+        }
+        .yelp{
+            line-height: 20px;
+            font-size: 14px;
+        }
+    }
+
+    @media screen and (max-width:576px){
+        .nav-link{
+            font-size: 16px;
+        }
+    }

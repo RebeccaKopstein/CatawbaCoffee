@@ -9,9 +9,51 @@
     background-size: 100px;
     background-repeat: no-repeat;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.747);
+    background-color: rgba(0, 0, 0, 0.87);
     color: rgb(245, 243, 240);
     font-family: 'Playfair Display', serif;
     border-color: black;
   height: 68px;
+}
+
+@media screen and (max-width: 968px){
+
+  .img-responsive1,.img-responsive2,.img-responsive3{
+    height: 30px;
+    width: 30px;
+    padding: 2px;
+  }
+  #media{
+    padding: 10px;
+  }
+  #addr{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 768px){
+ 
+ .col-8{
+    font-size: 11px;
+    width: 30%;
+  }
+}
+  @media screen and (max-width: 640px){
+    
+    #addr{
+      font-size: 11px;
+    }
+    .img-responsive1,.img-responsive2,.img-responsive3{
+      height: 22px;
+      width: 22px;
+      padding: 2px;
+    }
+}
+
+@media screen and (max-width: 576px){
+  #addr{
+    font-size: 11px;
+    padding-left: 60px;
+    padding-right: 10px;
+  }
 }

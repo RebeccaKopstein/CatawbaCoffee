@@ -29,7 +29,7 @@ font-weight: bold;
 .rbc-agenda-date-cell,.rbc-agenda-time-cell, .rbc-agenda-event-cell{
     color: white;
     font-style: bold;
-    background-color: rgba(19, 19, 241, 0.322);
+    background-color: rgba(19, 19, 241, 0.116);
     -webkit-box-shadow: inset 0px 0px 4px 1px rgba(71,70,71,1);
     -moz-box-shadow: inset 0px 0px 4px 1px rgba(71,70,71,1);
     box-shadow: inset 0px 0px 4px 1px rgba(71,70,71,1); 
@@ -58,11 +58,10 @@ button{
 
 .calendar{
     background-image: url("../../images/music2.jpg");
-  
-    /* position:fixed; */
     margin-left: 35px;
     margin-right: 35px; 
 }
+
 .rbc-day-bg.rbc-off-range-bg {
 
     background-color: rgb(2, 6, 17);
@@ -72,3 +71,16 @@ button{
     background-color: rgb(129, 160, 228);
 }
 
+@media screen and (max-width:576px){
+    .rbc-toolbar{
+       
+    font-size: 10px;
+   
+        }
+        .rbc-btn-group,.rbc-row-content{
+            font-size: 12px;
+        }
+        .rbc-agenda-event-cell,.rbc-agenda-time-cell,.rbc-agenda-date-cell,.rbc-toolbar-label{
+            font-size: 12px;
+        }
+}

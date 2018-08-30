@@ -3,8 +3,12 @@ import { Link } from "react-router-dom";
 
 const NavTabs = () => (
   <div id ="top">
+  {/* <nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button> */}
 <div id="test">
-  <ul className="nav nav-tabs">
+  <ul className="nav nav-tabs ">
     <li className="nav-item">
       <Link
         to="/"
@@ -72,6 +76,7 @@ const NavTabs = () => (
   </ul>
 
 </div>
+{/* </nav> */}
 </div>
 
 );

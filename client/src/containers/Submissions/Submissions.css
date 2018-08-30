@@ -1,17 +1,7 @@
-/* body {
-    background-image: url("../../images/BWstorefront.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: rgb(134, 12, 12);
-    
-
-} */
 
 .subInput1 {
     background: rgba(214, 210, 210, 0.781);
     box-shadow: 2px 2px 4px 1px rgba(0, 0, 0);
-   /* text-align: center; */
-   /* color: wheat; */
    width: 450px;
    font-size: 18px;
 }
@@ -19,15 +9,12 @@
 .subInput2{
     background: rgba(214, 210, 210, 0.781);
     box-shadow: 2px 2px 4px 1px rgba(0, 0, 0);
-   /* text-align: center; */
-   /* color: wheat; */
    width: 450px;
    font-size: 18px;
 }
 .subInput3{
     background: rgba(214, 210, 210, 0.781);
     box-shadow: 2px 2px 4px 1px rgba(0, 0, 0);
-   /* text-align: center; */
    color: slategray;
    width: 450px;
    font-size: 18px;
@@ -130,3 +117,14 @@
     margin-left: 35px;
     margin-right: 35px;  
 }
+
+
+
+@media screen and (max-width: 768px){
+    .form1,.h2Contact {
+        width: 100%;
+    }
+    .h2Contact{
+        font-size: 45px;
+    }
+ }

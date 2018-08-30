@@ -4,7 +4,7 @@
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
-    height: 800px;
+    height: 900px;
     margin-left: 35px;
     margin-right:35px;
     background-color: rgba(0, 0, 0, 0.37);
@@ -17,18 +17,20 @@
 
 .owner {
     border: black;
-    height: 400px;
+    height: 455px;
     width: 350px;
     float: left;
+    margin-top: 10px;
     margin-right:20px;
+    margin-bottom: 100px;
     border-radius: 5px; 
     box-shadow: 0px 0px 15px 4px rgba(36, 35, 35, 0.616);
 }
 .aboutUs {
     width: 85%; 
-    Background: rgba(90, 87, 87, 0.89);
+    Background: rgba(34, 31, 31, 0.699);
      text-align: left;
-     margin-left: 80px;
+     margin-left: 40px;
      font-size: 22px;
      text-shadow: 2px 2px black;
      border-radius: 10px;
@@ -36,6 +38,7 @@
      color: whitesmoke;
      position: relative;
      padding: 25px;
+     padding-bottom: 60px;
      /* text-indent: 25px; */
      box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.616);
  }
@@ -44,3 +47,92 @@
     font-family: 'Rozha One', serif;
     margin-bottom: 20px;
  }
+
+ p {
+     font-family: serif;
+     font-weight: 530
+ }
+
+ /*Home Page Media Query  width=968*/
+
+
+ @media screen and (max-width: 968px){
+
+    .aboutUs {
+        width: 85%; 
+         margin-left: 60px;
+         font-size: 18px;
+         margin-bottom: 60px;
+         padding: 20px;
+         padding-bottom: 40px;
+     }
+     .owner {
+        height: 405px;
+        width: 300px;
+        margin-bottom: 10px;
+     }
+
+     .about{
+        height: 925px;
+     }
+}
+
+
+@media screen and (max-width: 768px){
+
+    .aboutUs {
+        width: 85%; 
+         margin-left: 60px;
+         font-size: 16px;
+         margin-bottom: 60px;
+         padding: 20px;
+         padding-bottom: 40px;
+     }
+     .owner {
+        height: 385px;
+        width: 275px;
+        margin-bottom: 10px;
+     }
+
+     .about{
+        height: 1025px;
+     }
+     .aboutH1 {
+         font-size: 30px;
+     }
+}
+
+    @media screen and (max-width: 640px){
+
+        .owner {
+            height: 390px;
+            width: 280px;
+            margin-left: 50px;
+            margin-bottom: 10px;
+         }
+
+         .about{
+            height: 1280px;
+         }
+         .aboutUs {
+            width: 75%;
+        }
+    }
+
+
+        @media screen and (max-width: 576px){
+
+            .owner {
+                height: 385px;
+                width: 275px;
+                margin-left: 22px;
+                margin-bottom: 10px;
+             }
+    
+         .about{
+            height: 1390px;
+         }
+         .aboutUs {
+             margin-left: 35px;
+         }
+    }
